@@ -2,7 +2,9 @@
 Repositorio con diferentes vectores de ataque mediante radio frecuencia
 
 ># Vectores de Ataque por radio frecuencia - La inseguridad de las redes inalámbricas
-> La tecnología inalámbrica es una poderosa tecnología central que permite nuestra infraestructura digital global. Las redes Wi-Fi son susceptibles a ataques en WEP (Wired Equivalent Privacy), el acceso protegido por Wi-Fi (WPA) y WPA2. Estas firmas de ataque se pueden perfilar en un sistema que se defiende contra tales ataques sobre la base de sus características inherentes
+> Los ataques de RF pueden causar graves daños a la privacidad de un individuo al permitir que los atacantes intercepten, modifiquen o interrumpan la comunicación entre dispositivos inalámbricos. Este documento proporciona una revisión completa del impacto de los ataques de RF en la seguridad y la privacidad.
+
+>La tecnología inalámbrica es una poderosa tecnología central que permite nuestra infraestructura digital global. Las redes Wi-Fi son susceptibles a ataques en WEP (Wired Equivalent Privacy), el acceso protegido por Wi-Fi (WPA) y WPA2. Estas firmas de ataque se pueden perfilar en un sistema que se defiende contra tales ataques sobre la base de sus características inherentes
 
 
 >Las vulnerabilidades de las redes móviles ad hoc (MANET) lo hacen sujeto a un gran número de ataques. Con el fin de comprender la naturaleza y el comportamiento de tales ataques, se han propuesto muchos esquemas de clasificación y taxonomías para los ataques MANET. Este documento propone una nueva taxonomía para los ataques MANET. La taxonomía tiene como objetivo proporcionar un medio consistente para clasificar los ataques, así como permitir que el conocimiento previo se aplique a nuevos ataques y proporcionar una forma estructurada de ver dichos ataques.
