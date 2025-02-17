@@ -30,8 +30,21 @@
 
 ## Ejercicio práctico - copiado de señal de control remoto
 
+[Reporte ejercicio práctico de aplicación de ataque por RF](https://github.com/jzapatac/VectoresDeAtaqueRF/blob/main/VideoPractica/Ejercicio%20practico%20vector%20ataque%20RF.pdf)
+
 **Videos de ejercicio**
 
+**Paso 1**
+
+[Identificación de la frecuencia del control a clonar](https://github.com/jzapatac/VectoresDeAtaqueRF/blob/main/VideoPractica/Grabaci%C3%B3n%20de%20pantalla%20-%20identificaci%C3%B3n%20frecuencia.mov)
+
+**Paso 2**
+
+[Grabación de señal del control](https://github.com/jzapatac/VectoresDeAtaqueRF/blob/main/VideoPractica/Grabaci%C3%B3n%20de%20pantalla%20-%20captura%20se%C3%B1al%20control.mov)
+
+**Vista del proceso**
+
+[Vista de realización del proceso](https://github.com/jzapatac/VectoresDeAtaqueRF/blob/main/VideoPractica/Vista%20general-Grabacion%20de%20se%C3%B1al%20de%20control%20remoto.MOV)
 
 
 ## Videos SDR
