@@ -1,7 +1,4 @@
 
-
-
-> Written with [StackEdit](https://stackedit.io/).
 ># Vectores de Ataque - La inseguridad de las redes inalámbricas
 > La tecnología inalámbrica es una poderosa tecnología central que permite nuestra infraestructura digital global. Las redes Wi-Fi son susceptibles a ataques en WEP (Wired Equivalent Privacy), el acceso protegido por Wi-Fi (WPA) y WPA2. Estas firmas de ataque se pueden perfilar en un sistema que se defiende contra tales ataques sobre la base de sus características inherentes.
 
@@ -10,7 +7,10 @@
 >## Ataque por radio frecuencia RF
 >Documentación técnica
 >## SDR
->
+>Radio definida por software o SDR ( del Inglés Software Defined Radio) es un sistema de radiocomunicaciones donde varios de los componentes típicamente implementados en hardware (mezcladores, filtros, moduladores/demoduladores, detectores, etc) son implementados en software, utilizando un ordenador personal u otros dispositivos de computación embebidos.
+
+> A continuación se presentan algunos trabajos académicos sobre la seguridad en los medios de comunicación inalámbricos
+
 |Título/Title  |Resumen/Abstract  |
 |--|--|
 | [A technical review of wireless security for the internet of things: Software defined radio perspective](https://www.sciencedirect.com/science/article/pii/S1319157821000896) | This paper presents a review of the vulnerabilities on [wireless technologies](https://www.sciencedirect.com/topics/computer-science/wireless-technologies "Learn more about wireless technologies from ScienceDirect's AI-generated Topic Pages") that gives connectivity to IoT, and the experiences using  [Software Defined Radio](https://www.sciencedirect.com/topics/computer-science/software-defined-radio "Learn more about Software Defined Radio from ScienceDirect's AI-generated Topic Pages") SDR for implementing  [wireless attacks](https://www.sciencedirect.com/topics/computer-science/wireless-attack "Learn more about wireless attacks from ScienceDirect's AI-generated Topic Pages")  to IoT technologies are assessed |
@@ -26,9 +26,6 @@
 | [rtl-sdr](https://github.com/osmocom/rtl-sdr)|rtl-sdr turns your Realtek RTL2832 based DVB dongle into a SDR receiver|
 |[Universal Radio Hacker - URH](https://github.com/jopohl/urh)|The Universal Radio Hacker (URH) is a complete suite for wireless protocol investigation with native support for [many](https://github.com/jopohl/urh/wiki/Supported-devices) common **Software Defined Radios**.|
 |[deep-tempest](https://github.com/emidan19/deep-tempest)|In this project we have extended the original [**gr-tempest**](https://github.com/git-artes/gr-tempest) (a.k.a. [Van Eck Phreaking](https://en.wikipedia.org/wiki/Van_Eck_phreaking) or simply TEMPEST; i.e. spying on a video display from its unintended electromagnetic emanations) by using deep learning to improve the quality of the spied images.|
-
-
-
 
 
 ## Videos SDR
@@ -53,28 +50,34 @@
 [Industrial Machines like Cranes, Excavators Can Easily be Hacked with Software Defined Radios]()
 
 
-
-
->
 >## Artículo Técnicos
->
+
 | Título/Title |Resumen/Abstract  | Año|
 |--|--|--|
 | [The Insecurity of Wireless Networks](https://www.researchgate.net/publication/260635283_The_Insecurity_of_Wireless_Networks) | The article discusses methods of intrusion detection and prevention in the context of cyberphysical protection of critical Internet infrastructure. The basis for this research is a specialized (and undoubtedly incomplete) taxonomy of Wi-Fi attacks and their adaptations to existing countermeasures and protocol revisions. Ultimately, this article aims to provide a clearer picture of how and why wireless protection protocols and encryption must achieve a more scientific basis for detecting and preventing such attacks.  |2012|
 [Universal Radio Hacker: A Suite for Analyzing and Attacking Stateful Wireless Protocols](https://www.usenix.org/system/files/conference/woot18/woot18-paper-pohl.pdf) | In this paper, we present the Universal Radio Hacker (URH), an open source tool which is designed for protocol analysis from the ground up and implements a full workflow including interfaces for SDRs, intuitive demodulation, customizable decodings, fuzzing support and a simulation component|2018|
 |[Resistance to Replay Attacks of Remote Control Protocols using the 433 MHz Radio Channel](https://ceur-ws.org/Vol-3654/paper9.pdf) |This study focuses on the analysis of replay attacks, which pose a significant risk to remote control systems using the 433 MHz radio frequency band. Proceedings of the Workshop Cybersecurity Providing in Information and Telecommunication Systems (CPITS 2024), Kyiv, Ukraine, February 28, 2024 ([online](https://ceur-ws.org/Vol-3654/paper9.pdf)). Edited by: Volodymyr Sokolov, Vasyl Ustimenko, Tamara Radivilova, Mariya Nazarkevych. Submitted by: Volodymyr Sokolov. Published on CEUR-WS: 20-Mar-2024. [ARCHIVE](http://sunsite.informatik.rwth-aachen.de/ftp/pub/publications/CEUR-WS/Vol-3654.zip)|2024|
 |[EM Eye: Characterizing Electromagnetic Side-channel Eavesdropping on Embedded Cameras](https://www.rtl-sdr.com/em-eye-eavesdropping-on-security-camera-via-unintentional-rf-emissions/)|This repository is the tutorial of eavesdropping on camera video from camera circuit's electromagnetic (EM) leakage, which is presented in the NDSS'24 paper "**EM Eye: Characterizing Electromagnetic Side-channel Eavesdropping on Embedded Cameras**"|2024|
-||||
+|[Unlocking Security Risks: Exploring Vulnerabilities inSoftware-Defined Radio with RTL-SDR](https://www.ijraset.com/research-paper/unlocking-security-risks-exploring-vulnerabilities-in-software-defined-radio-with-rtl-sdr)|This study illustrates potential avenues for exploitation by utilizing RTL-SDR dongles to reveal Software-Defined Radio's (SDR) vulnerabilities. Using replay attacks, the study reveals the weakness of car key unlocking techniques, concentrating on static codes.|2024|
+|[Frequency Attack](https://www.sciencedirect.com/topics/computer-science/frequency-attack)|Frequency attack is a type of hardware-based attack where attackers use variations in frequency to extract sensitive information from a biometric device.|2023|
 
 
-|[INCIBE - SDR and its role in cybersecurity](https://www.incibe.es/en/incibe-cert/blog/sdr-and-its-role-cybersecurity)|||
+|[INCIBE - SDR and its role in cybersecurity](https://www.incibe.es/en/incibe-cert/blog/sdr-and-its-role-cybersecurity)||
+
+
+## Otros vínculos
+[https://www.kali.org/tools/rtlsdr-scanner/](https://www.kali.org/tools/rtlsdr-scanner/)
+
+
+>## Noticias de ataques por RF
 >
+>[RAM Signals Expose Air-Gapped Networks to Attacks](https://www.bankinfosecurity.com/ram-signals-expose-air-gapped-networks-to-attacks-a-26258)
+>[New RAMBO Attack Uses RAM Radio Signals to Steal Data from Air-Gapped Networks](https://thehackernews.com/2024/09/new-rambo-attack-uses-ram-radio-signals.html)
+>[How Lebanon's wireless paging system was weaponized to make Hezbollah devices explode](https://www.voanews.com/a/how-lebanon-s-wireless-paging-system-was-weaponized-to-make-hezbollah-devices-explode/7791044.html)
+>[How did Hezbollah’s pagers explode in Lebanon?](https://www.aljazeera.com/news/2024/9/17/how-did-hezbollahs-pagers-explode-in-lebanon)
+>[Nine killed, 2,750 wounded across Lebanon as Hezbollah pagers explode](https://www.aljazeera.com/news/2024/9/17/dozens-of-hezbollah-members-wounded-after-pagers-explode-in-lebanon)
+>[]()
 
-## Vínculos
-
-
->## Noticias
->
 >### Ataque a marcapasos
 
  - [The Guardian - Hacking risk leads to recall of 500,000 pacemakers due to patient death fears](https://www.theguardian.com/technology/2017/aug/31/hacking-risk-recall-pacemakers-patient-death-fears-fda-firmware-update) 
