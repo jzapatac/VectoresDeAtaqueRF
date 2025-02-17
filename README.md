@@ -1,16 +1,23 @@
 
 ># Vectores de Ataque - La inseguridad de las redes inalámbricas
->Con el uso creciente de tecnologías de comunicación inalámbrica, como la identificación por radiofrecuencia (RFID), Bluetooth Low Energy (BLE), ZigBee y las redes celulares, el riesgo de ataques por radiofrecuencia (RF) se ha convertido en una preocupación importante para la privacidad y la seguridad.
 
-> La tecnología inalámbrica es una poderosa tecnología central que permite nuestra infraestructura digital global. Las redes Wi-Fi son susceptibles a ataques en WEP (Wired Equivalent Privacy), el acceso protegido por Wi-Fi (WPA) y WPA2. Estas firmas de ataque se pueden perfilar en un sistema que se defiende contra tales ataques sobre la base de sus características inherentes.
+![AttacksAgainstIndustrialMachines-attack2](https://github.com/user-attachments/assets/c6217f84-9ff8-4ede-bb92-16d030830081)
 
->Las vulnerabilidades de las redes móviles ad hoc (MANET) lo hacen sujeto a un gran número de ataques. Con el fin de comprender la naturaleza y el comportamiento de tales ataques, se han propuesto muchos esquemas de clasificación y taxonomías para los ataques MANET. Este documento propone una nueva taxonomía para los ataques MANET. La taxonomía tiene como objetivo proporcionar un medio consistente para clasificar los ataques, así como permitir que el conocimiento previo se aplique a nuevos ataques y proporcionar una forma estructurada de ver dichos ataques.
+
+Con el uso creciente de tecnologías de comunicación inalámbrica, como la identificación por radiofrecuencia (RFID), Bluetooth Low Energy (BLE), ZigBee y las redes celulares, el riesgo de ataques por radiofrecuencia (RF) se ha convertido en una preocupación importante para la privacidad y la seguridad.
+
+La tecnología inalámbrica es una poderosa tecnología central que permite nuestra infraestructura digital global. Las redes Wi-Fi son susceptibles a ataques en WEP (Wired Equivalent Privacy), el acceso protegido por Wi-Fi (WPA) y WPA2. Estas firmas de ataque se pueden perfilar en un sistema que se defiende contra tales ataques sobre la base de sus características inherentes.
+
+Las vulnerabilidades de las redes móviles ad hoc (MANET) lo hacen sujeto a un gran número de ataques. Con el fin de comprender la naturaleza y el comportamiento de tales ataques, se han propuesto muchos esquemas de clasificación y taxonomías para los ataques MANET. Este documento propone una nueva taxonomía para los ataques MANET. La taxonomía tiene como objetivo proporcionar un medio consistente para clasificar los ataques, así como permitir que el conocimiento previo se aplique a nuevos ataques y proporcionar una forma estructurada de ver dichos ataques.
 
 >## SDR
->Radio definida por software o SDR ( del Inglés Software Defined Radio) es un sistema de radiocomunicaciones donde varios de los componentes típicamente implementados en hardware (mezcladores, filtros, moduladores/demoduladores, detectores, etc) son implementados en software, utilizando un ordenador personal u otros dispositivos de computación embebidos.
 
-> A continuación se presentan algunos trabajos académicos, repositoris de GitHub, videos y otra información relacionada con ataques a medios de comunicación inalámbricos
-> 
+![RTL-SDR_configuration](https://github.com/user-attachments/assets/a4f4169b-1aee-4dce-bb7e-9683944c0767)
+
+
+Radio definida por software o SDR ( del Inglés Software Defined Radio) es un sistema de radiocomunicaciones donde varios de los componentes típicamente implementados en hardware (mezcladores, filtros, moduladores/demoduladores, detectores, etc) son implementados en software, utilizando un ordenador personal u otros dispositivos de computación embebidos.
+
+ A continuación se presentan algunos trabajos académicos, repositoris de GitHub, videos y otra información relacionada con ataques a medios de comunicación inalámbricos
 
 |Título/Title  |Resumen/Abstract  |
 |--|--|
@@ -20,7 +27,7 @@
 |[Attacks Against Industrial Machines via Vulnerable Radio Remote Controllers: Security Analysis and Recommendations](https://www.trendmicro.com/vinfo/us/security/news/vulnerabilities-and-exploits/attacks-against-industrial-machines-via-vulnerable-radio-remote-controllers-security-analysis-and-recommendations)|In our research and vulnerability discoveries, we found that weaknesses in the controllers can be (easily) taken advantage of to move full-sized machines such as cranes used in construction sites and factories. - [Download paper](https://documents.trendmicro.com/assets/white_papers/wp-a-security-analysis-of-radio-remote-controllers.pdf)|
 
 
-## Repositorios de GitHub
+> ## Repositorios de GitHub
 |Título/Title|Resumen/Abstract  |
 |--|--|
 | [EMEye_Tutorial](https://github.com/longyan97/EMEye_Tutorial) | This repository is the tutorial of eavesdropping on camera video from camera circuit's electromagnetic (EM) leakage, which is presented in the NDSS'24 paper "**EM Eye: Characterizing Electromagnetic Side-channel Eavesdropping on Embedded Cameras**" |
@@ -28,7 +35,11 @@
 |[Universal Radio Hacker - URH](https://github.com/jopohl/urh)|The Universal Radio Hacker (URH) is a complete suite for wireless protocol investigation with native support for [many](https://github.com/jopohl/urh/wiki/Supported-devices) common **Software Defined Radios**.|
 |[deep-tempest](https://github.com/emidan19/deep-tempest)|In this project we have extended the original [**gr-tempest**](https://github.com/git-artes/gr-tempest) (a.k.a. [Van Eck Phreaking](https://en.wikipedia.org/wiki/Van_Eck_phreaking) or simply TEMPEST; i.e. spying on a video display from its unintended electromagnetic emanations) by using deep learning to improve the quality of the spied images.|
 
-## Ejercicio práctico - copiado de señal de control remoto
+> ## Ejercicio práctico - copiado de señal de control remoto
+
+En este ejercicio académico se aplicaron los conceptos y técnicas encontradas en las referencias con el fin de capturar señales de radio frecuencia y posteriormente realizar ataques de repetición. Se logró realizar el copiado de una señal de un control remoto de una cortina que opera a 433 MHz.
+
+![CapturaSenalControl](https://github.com/user-attachments/assets/ec4917a2-d50e-485f-9832-f4ed9fddc45b)
 
 [Reporte ejercicio práctico de aplicación de ataque por RF](https://github.com/jzapatac/VectoresDeAtaqueRF/blob/main/VideoPractica/Ejercicio%20practico%20vector%20ataque%20RF.pdf)
 
@@ -47,7 +58,7 @@
 [Vista de realización del proceso](https://github.com/jzapatac/VectoresDeAtaqueRF/blob/main/VideoPractica/Vista%20general-Grabacion%20de%20se%C3%B1al%20de%20control%20remoto.MOV)
 
 
-## Videos SDR
+> ## Videos SDR
 
 **Video Introducción**
 
@@ -57,7 +68,7 @@
  - [Universal Radio Hacker - 01: Record a signal](https://www.youtube.com/watch?v=kuubkTDAxwA&list=PLlKjreY6G-1EKKBs9sucMdk8PwzcFuIPB)
  - [Universal Radio Hacker - 02: Interpretation](https://www.youtube.com/watch?v=QqVvEOzKPCs&list=PLlKjreY6G-1EKKBs9sucMdk8PwzcFuIPB&index=2)
  - [Universal Radio Hacker - 03: Analysis](https://www.youtube.com/watch?v=IF-tO1wMDUg&list=PLlKjreY6G-1EKKBs9sucMdk8PwzcFuIPB&index=3)
- - [Universal Radio Hacker - 04: Generation (bad audio quality)](https://www.youtube.com/watch?v=ODJRpDTxFvs&list=PLlKjreY6G-1EKKBs9sucMdk8PwzcFuIPB&index=4)
+ - [Universal Radio Hacker - 04: Generation (tiene mala calidad de audio :( )](https://www.youtube.com/watch?v=ODJRpDTxFvs&list=PLlKjreY6G-1EKKBs9sucMdk8PwzcFuIPB&index=4)
  - [Universal Radio Hacker - 05: Simulation](https://www.youtube.com/watch?v=j8vce1jujrM&list=PLlKjreY6G-1EKKBs9sucMdk8PwzcFuIPB&index=5)
  - [A Security Analysis of Radio Remote Controllers for Industrial Applications](https://youtu.be/XY7MDhE3tfE)
  - [Analyzing Vulnerabilities in Industrial Radio Frequency Protocols](https://youtu.be/WXHVA9gGh4o)
@@ -76,7 +87,7 @@
 [Shekari slides](https://www.ndss-symposium.org/wp-content/uploads/ndss2019_07A-2_Shekari_slides.pdf)
 
 
->## Artículo Técnicos
+> ## Artículo Técnicos
 
 | Título/Title |Resumen/Abstract  | Año|
 |--|--|--|
@@ -90,21 +101,21 @@
 
 
 ## Otros vínculos
-[https://www.kali.org/tools/rtlsdr-scanner/](https://www.kali.org/tools/rtlsdr-scanner/)
-[INCIBE - SDR and its role in cybersecurity](https://www.incibe.es/en/incibe-cert/blog/sdr-and-its-role-cybersecurity)
+- [https://www.kali.org/tools/rtlsdr-scanner/](https://www.kali.org/tools/rtlsdr-scanner/)
+- [INCIBE - SDR and its role in cybersecurity](https://www.incibe.es/en/incibe-cert/blog/sdr-and-its-role-cybersecurity)
 
 
 >## Noticias de ataques por RF
->
->### Ataques sector industrial
->[RAM Signals Expose Air-Gapped Networks to Attacks](https://www.bankinfosecurity.com/ram-signals-expose-air-gapped-networks-to-attacks-a-26258)
->[New RAMBO Attack Uses RAM Radio Signals to Steal Data from Air-Gapped Networks](https://thehackernews.com/2024/09/new-rambo-attack-uses-ram-radio-signals.html)
+
+### Ataques sector industrial
+- [RAM Signals Expose Air-Gapped Networks to Attacks](https://www.bankinfosecurity.com/ram-signals-expose-air-gapped-networks-to-attacks-a-26258)
+- [New RAMBO Attack Uses RAM Radio Signals to Steal Data from Air-Gapped Networks](https://thehackernews.com/2024/09/new-rambo-attack-uses-ram-radio-signals.html)
 
 >### Ataques sector militar
->[How Lebanon's wireless paging system was weaponized to make Hezbollah devices explode](https://www.voanews.com/a/how-lebanon-s-wireless-paging-system-was-weaponized-to-make-hezbollah-devices-explode/7791044.html)
->[How did Hezbollah’s pagers explode in Lebanon?](https://www.aljazeera.com/news/2024/9/17/how-did-hezbollahs-pagers-explode-in-lebanon)
->[Nine killed, 2,750 wounded across Lebanon as Hezbollah pagers explode](https://www.aljazeera.com/news/2024/9/17/dozens-of-hezbollah-members-wounded-after-pagers-explode-in-lebanon)
->[]()
+- [How Lebanon's wireless paging system was weaponized to make Hezbollah devices explode](https://www.voanews.com/a/how-lebanon-s-wireless-paging-system-was-weaponized-to-make-hezbollah-devices-explode/7791044.html)
+- [How did Hezbollah’s pagers explode in Lebanon?](https://www.aljazeera.com/news/2024/9/17/how-did-hezbollahs-pagers-explode-in-lebanon)
+- [Nine killed, 2,750 wounded across Lebanon as Hezbollah pagers explode](https://www.aljazeera.com/news/2024/9/17/dozens-of-hezbollah-members-wounded-after-pagers-explode-in-lebanon)
+
 
 >### Ataque sector médico
 
